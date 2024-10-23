@@ -1,0 +1,42 @@
+.ls{
+    background: #001030;
+    color: white;
+    height: 75vh;
+}
+.ls-top{
+    padding: 20px;
+}
+.ls-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ls-nav .logo{
+    max-width: 140px;
+}
+.ls-nav .menu img{
+    max-height: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.ls-search{
+    background-color: #002670;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.ls-search img{
+    width: 16px;
+}
+.ls-search input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 11px;
+}
+.ls-search input::placeholder{
+    color: #c8c8c8;
+}
