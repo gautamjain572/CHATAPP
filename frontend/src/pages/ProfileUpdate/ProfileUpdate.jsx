@@ -21,6 +21,7 @@ const ProfileUpdate = () => {
   const [prevImage,setPrevImage] = useState("")
   const { setUserData } = useContext(AppContext)
 
+  // const { progress } = upload();
   // const [loading,setLoading] = useState(true)
 
   const profileUpdate = async (event) => {

@@ -57,3 +57,13 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media (max-width:768px){
+    .profile-container{
+        flex-direction: column-reverse;
+        min-width: auto;
+    }
+    .profile-pic{
+        margin: 30px;
+    }
+}

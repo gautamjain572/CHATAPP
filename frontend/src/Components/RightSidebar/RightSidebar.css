@@ -69,3 +69,9 @@
 .rs button:hover{
     opacity: 0.8;
 }
+
+@media (max-width:900px){
+    .rs{
+        display: none;
+    }
+}

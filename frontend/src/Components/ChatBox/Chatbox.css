@@ -14,7 +14,7 @@
     width: 25px;
     border-radius: 50%;
 }
-.chat-user img:first-child{
+.chat-user .img2{
     width: 38px;
     aspect-ratio: 1/1;
 }
@@ -123,4 +123,17 @@
     font-size: 20px;
     font-weight: 500;
     color: #383838;
+}
+.chat-user .arrow{
+    display: none;
+}
+
+@media (max-width:900px){
+    .chat-box{
+        width: 100%;
+        justify-content: center;
+    }
+    .chat-user .arrow{
+        display: block;
+    }
 }
